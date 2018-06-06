@@ -23,7 +23,7 @@ if (input != null) {
     }
 }
 
-$("div").hover(function () {
+$("div").mouseenter(function () {
     var target = this;
 
     target.style.transition = "none";
@@ -35,10 +35,10 @@ $("div").hover(function () {
         target.style.transition = "background-color 2s ease-out 0s";
         console.log('%ctransition setted', 'color: green');
         /*target.style.backgroundColor = "green";*/
-    }, 10);
-    setTimeout(function () {
-        target.style.transition = "none";
+    }, .1);
+});
+
+$("div").mouseleave(function(){
+    target.style.transition = "none";
         console.log('%ctransition removed', 'color: red');
-        target.style.backgroundColor = "red";
-    }, 2000);
 });
