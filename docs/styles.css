@@ -1,27 +1,22 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    
-    width: 100vw;
-    height: 100vh;
-    
-    flex-flow: row wrap;
-    justify-content: flex-start;
-    align-items: flex-start;
-    
-    background-color: black;
+@font-face {
+  font-family: gridget;
+  src: url("Gridget.otf");
 }
 
-.pixel{
-    display: inline-block;     
-    background-color: white;
-}
-
-.pixel:hover{
-    background-color: purple
+body {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-image: url("https://images.pexels.com/photos/176851/pexels-photo-176851.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  background-position: center;
+  background-size: cover;
 }
