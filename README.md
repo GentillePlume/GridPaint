@@ -1,1 +1,1 @@
-# GridPaint
+# Grid.js
