@@ -2,9 +2,9 @@ function gridjs(size) {
   console.log("🎇 Grid.js launched");
 
   if (!size) {
-    console.log("%csize is not defined", "color:white; background-color: orange; padding: 5px");
+    console.log("%csize is not defined ⚠️", "color:white; background-color: orange; padding: 5px");
     size = 10;
-    console.log("%cdefault size value setted (10)", "color:white; background-color: blue; padding: 5px");
+    console.log("%cdefault size value setted on 10", "color:white; background-color: blue; padding: 5px");
   } else {
     console.log("%csize value is setted on %c" + size + " ✔️", "color: green; padding: 25px 0", "font-weight: bold; color: green");
   }
